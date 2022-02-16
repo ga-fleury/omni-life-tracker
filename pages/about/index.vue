@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <div class="max-w-4xl mx-auto sm:px-6 lg:px-8">
+      <h1 class="text-5xl">About</h1>
       <div class="mt-8 bg-white overflow-hidden shadow sm:rounded-lg p-6">
         <h2 class="text-2xl leading-7 font-semibold">
           Welcome to your Nuxt Application
@@ -45,7 +46,9 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'AboutUs',
+}
 </script>
 
 <style>
